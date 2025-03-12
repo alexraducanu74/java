@@ -27,18 +27,13 @@ public class Solution {
      *          It is assumed that students have a list of preferred projects and the projects are not yet allocated.
      */
     static public void allocateProjects(Problem p) {
-        // Get the list of students from the problem object
         Student[] students = p.getStudents();
-
-        // Iterate over each student
         for (Student student : students) {
-            // Check each student's project preferences
             for (Project project : student.getPreferences()) {
-                // If the project is not yet allocated, allocate it to the student
                 if (!project.isAllocated()) {
-                    project.setAllocated(true); // Mark the project as allocated
+                    project.setAllocated(true);
                     System.out.println("Student " + student.getName() + " is assigned to project " + project.getName());
-                    break; // Once assigned, move to the next student
+                    break;
                 }
             }
         }
