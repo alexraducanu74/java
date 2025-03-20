@@ -1,10 +1,10 @@
 package org.example.compulsory;
 
 public class Path {
-    private Location start;
-    private Location end;
-    private int time;
-    private double safetyProbability;
+    private final Location start;
+    private final Location end;
+    private final int time;
+    private final double safetyProbability;
 
     public Path(Location start, Location end, int time, double safetyProbability) {
         this.start = start;
