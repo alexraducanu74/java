@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab8;
 
 public class Country extends AbstractEntity {
     private String name;

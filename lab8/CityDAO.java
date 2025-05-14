@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab8;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

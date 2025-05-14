@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab8;
 
 public class City extends AbstractEntity{
     private final int id;

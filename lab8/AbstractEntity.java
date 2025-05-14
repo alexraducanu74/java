@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab8;
 
 public abstract class AbstractEntity {
     protected int id;
