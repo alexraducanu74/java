@@ -1,4 +1,4 @@
-package org.example.lab8;
+package org.example;
 
 public class Continent extends AbstractEntity {
     private final String name;

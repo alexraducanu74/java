@@ -1,4 +1,4 @@
-package org.example.lab8;
+package org.example;
 
 import java.sql.*;
 

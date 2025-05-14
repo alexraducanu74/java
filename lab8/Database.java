@@ -1,4 +1,4 @@
-package org.example.lab8;
+package org.example;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
